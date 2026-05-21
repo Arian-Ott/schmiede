@@ -1,0 +1,20 @@
+[project]
+name = "schmiede"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Arian Ott", email = "arian.ott@ieee.org" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=9.0.3",
+    "ruff>=0.15.13",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
