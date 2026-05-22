@@ -10,3 +10,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial project scaffolding
 - Licensed project under Apache-2.0
+- AbstractModule for future Module develeopment
+- Infrastructure Enum for module development
+- Added core Schmiede class with builder pattern.
