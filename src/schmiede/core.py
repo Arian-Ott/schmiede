@@ -15,6 +15,7 @@ class Schmiede:
         self._shutdown: list[tuple[Callable, tuple, dict]] = []
         self._middleware: list[tuple[type, dict]] = []
         self._app = FastAPI(summary="powered by Schmiede")
+
     def enable(self, module: AbstractModule) -> "Schmiede":
         """Enables a module in Schmiede.
 
@@ -95,8 +96,6 @@ class Schmiede:
             self._app.add_middleware(middleware_class, **options)
 
         for module in self._modules:
-            module.settings_checker()
             module.register(self._app)
 
         return self._app
-
