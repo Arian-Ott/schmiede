@@ -1,6 +1,6 @@
 [project]
 name = "schmiede"
-version = "0.0.1a1"
+version = "0.0.1a2"
 description = "Batteries-included FastAPI extension package with auth, user management, logging, OpenTelemetry, and rate limiting. Built on Tortoise ORM."
 readme = "README.md"
 license = "Apache-2.0"
@@ -71,8 +71,8 @@ docs = [
 Homepage = "https://github.com/Arian-Ott/schmiede"
 Documentation = "https://github.com/Arian-Ott/schmiede#readme"
 Repository = "https://github.com/Arian-Ott/schmiede"
-Issues = "https://github.com/Arian-Ott/issues"
-Changelog = "https://github.com/Arian-Ott/blob/master/CHANGELOG.md"
+Issues = "https://github.com/Arian-Ott/schmiede/issues"
+Changelog = "https://github.com/Arian-Ott/schmiede/blob/master/CHANGELOG.md"
 
 
 [build-system]
