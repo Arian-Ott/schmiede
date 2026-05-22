@@ -42,7 +42,11 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Typing :: Typed",
 ]
-dependencies = []
+dependencies = [
+    "fastapi[standard]>=0.136.1",
+    "pydantic-settings>=2.14.1",
+    "pydantic[email]>=2.13.4",
+]
 
 [project.optional-dependencies]
 dev = [
