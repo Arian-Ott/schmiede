@@ -8,8 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Basic `README.md` file ([#7](https://github.com/Arian-Ott/schmiede/issues/7))
-
+- Basic `README.md` file ([#11](https://github.com/Arian-Ott/schmiede/issues/11))
+- Complete contributing guide ([#10](https://github.com/Arian-Ott/schmiede/issues/10))
 
 ## [0.0.1a2]
 
