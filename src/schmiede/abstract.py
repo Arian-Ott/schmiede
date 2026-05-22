@@ -1,6 +1,8 @@
 from abc import ABC, abstractmethod
 from enum import StrEnum
 
+from fastapi import FastAPI
+
 
 class Infrastructure(StrEnum):
     SQL = "SQL"
@@ -14,4 +16,4 @@ class AbstractModule(ABC):
     def required_infra(self) -> list[Infrastructure] | None: ...
 
     @abstractmethod
-    def register(self) -> None: ...
+    def register(self, app:FastAPI) -> None: ...
