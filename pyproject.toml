@@ -65,6 +65,7 @@ lint = [
 docs = [
     "mkdocs>=1.6.1",
     "mkdocs-material>=9.7.6",
+    "mkdocstrings[python]>=1.0.4",
 ]
 
 [project.urls]
@@ -89,6 +90,8 @@ include = [
     "/README.md",
     "/LICENSE",
     "/CHANGELOG.md",
+    "/docs",
+    "mkdocs.yml"
 ]
 
 
