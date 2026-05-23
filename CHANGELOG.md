@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Basic `README.md` file ([#11](https://github.com/Arian-Ott/schmiede/issues/11))
 - Complete contributing guide ([#10](https://github.com/Arian-Ott/schmiede/issues/10))
+- Included docs in sdist for versioned documentation ([#7](https://github.com/Arian-Ott/schmiede/issues/7))
 
 ## [0.0.1a2]
 
